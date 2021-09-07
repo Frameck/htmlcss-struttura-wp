@@ -14,51 +14,41 @@ nav {
     margin-bottom: 15px;
 }
 
-.header {
+.hero-section {
     height: 300px;
     background-color: rgb(245, 245, 113);
     margin-bottom: 15px;
 }
 
-main {
-    height: 500px;
-    background-color: rgb(126, 195, 255);
+.main-container {
+    background-color: rgb(56, 107, 194);
+    padding-bottom: 15px;
     margin-bottom: 15px;
 }
 
-.clearfix::after {
+.top-header {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 15px;
+    background-color: rgb(126, 195, 255);
+}
+
+.row::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.top {
-    width: 100%;
-    height: 70px;
-}
-
-.left {
+.col {
     float: left;
+    height: 450px;
     width: 20%;
-    height: calc(100% - 70px);
+    background-color: rgb(126, 195, 255);
 }
 
 .center {
-    float: left;
-    width: 60%;
-    height: calc(100% - 70px);
-    border: 10px solid rgb(56, 107, 194);
-}
-
-.right {
-    float: left;
-    width: 20%;
-    height: calc(100% - 70px);
-}
-
-.border {
-    border-top: 10px solid rgb(56, 107, 194);
-    border-bottom: 10px solid rgb(56, 107, 194);
+    width: calc(60% - 30px);
+    margin: 0 15px;
 }
 
 footer {
